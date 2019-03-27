@@ -2,10 +2,10 @@
 
 MESSAGE=${1:-'Are you sure?'}
 
-echo -n "$MESSAGE y/N: "
-read OPTION
+read -p "$MESSAGE [y/N] " -n 1 -r
+echo
 
-if [ "$OPTION" == 'y' ] || [ "$OPTION" == 'Y' ] || [ "$OPTION" == 'yes' ]; then
+if [[ $REPLY =~ ^[Yy]$ ]]; then
   exit 0
 else
   exit 1

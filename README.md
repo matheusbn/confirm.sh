@@ -6,7 +6,7 @@ A simple script to ask for user confirmation on shell commands
 
 Output:  
 
-`u sure mate? y/N:`
+`u sure mate? [y/N]`
   
 or  
 
@@ -14,7 +14,7 @@ or
 
 Output:  
 
-`Are you sure? y/N:`  
+`Are you sure? [y/N]`  
 
 ## Installing
 `git clone git@github.com:matheusbn/confirm.sh.git && cd confirm.sh && ./install.sh`
