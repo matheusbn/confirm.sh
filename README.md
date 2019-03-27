@@ -2,7 +2,7 @@
 A simple script to ask for user confirmation on shell commands
 
 ## Usage
-`confirm 'u sure mate?' && rm somefile`  
+`$ confirm 'u sure mate?' && rm somefile`  
 
 Output:  
 
@@ -10,7 +10,7 @@ Output:
   
 or  
 
-`confirm && rm somefile`  
+`$ confirm && rm somefile`  
 
 Output:  
 
