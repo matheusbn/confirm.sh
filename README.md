@@ -7,7 +7,7 @@ A simple script to ask for user confirmation on shell commands
 Output:  
 `u sure mate? [y/N]`
   
-or  
+### or  
 
 `$ confirm && rm somefile`  
 
